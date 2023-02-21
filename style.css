@@ -1,0 +1,38 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+#logo{
+    width: 10%;
+    height: 10%;
+}
+input{
+    border: 2px solid rgb(5, 0, 0);
+}
+#results{
+display: flex;
+flex-wrap: wrap;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+.res1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 20%;
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+p{
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+}
